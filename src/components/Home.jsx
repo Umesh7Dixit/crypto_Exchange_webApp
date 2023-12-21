@@ -6,6 +6,15 @@ import { motion } from "framer-motion";
 const Home = () => {
   return (
     <Box bgColor={"blackAlpha.900"} w={"full"} h={"85vh"}>
+
+
+{/* <div>
+         <input type='text' placeholder='User Id'/>
+         <input type='text' placeholder='Passward'/>
+         <input type='text' placeholder='Email'/>
+    </div> */}
+
+
       <motion.div
         style={{
           height: "80vh",
