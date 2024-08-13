@@ -19,7 +19,7 @@ const CoinDetails = () => {
   const currencySymbol =
     currency === "inr" ? "₹" : currency === "eur" ? "€" : "$";
 
-  const btns = ["24h", "7d", "14d", "30d", "60d", "200d", "1y", "max"];
+  const btns = ["24h", "7d",  "30d", "1y", "max"];
 
   const switchChartStats = (key) => {
     switch (key) {
@@ -31,22 +31,22 @@ const CoinDetails = () => {
         setDays("7d");
         setLoading(true);
         break;
-      case "14d":
-        setDays("14d");
-        setLoading(true);
-        break;
+      // case "14d":
+      //   setDays("14d");
+      //   setLoading(true);
+      //   break;
       case "30d":
         setDays("30d");
         setLoading(true);
         break;
-      case "60d":
-        setDays("60d");
-        setLoading(true);
-        break;
-      case "200d":
-        setDays("200d");
-        setLoading(true);
-        break;
+      // case "60d":
+      //   setDays("60d");
+      //   setLoading(true);
+      //   break;
+      // case "200d":
+      //   setDays("200d");
+      //   setLoading(true);
+      //   break;
       case "1y":
         setDays("365d");
         setLoading(true);

@@ -66,13 +66,7 @@ const ExchangeCard = ({ name, img, rank, url }) => (
         },
       }}
     >
-      <Image
-        src={img}
-        w={"10"}
-        h={"10"}
-        objectFit={"contain"}
-        alt={"Exchange"}
-      />
+      <Image        src={img}        w={"10"}        h={"10"}        objectFit={"contain"}        alt={"Exchange"}      />
       <Heading size={"md"} noOfLines={1}>
         {rank}
       </Heading>
